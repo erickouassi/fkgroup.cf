@@ -1,9 +1,10 @@
 /* ======================================================================
-  Author Custom JavaScript
+  www.erickouassi.com
+googleSheetApi = https://opensheet.vercel.app/
 ====================================================================== */
 //
 async function getUsers() {
-    let url = 'https://opensheet.vercel.app/1A0DlNZRwa0RgB-bO9P2TjM-oArqLC4KJvJwfeHGMnY8/Dues+Tracker';
+    let url = 'googleSheetApi'; // Change your api link
     try {
         let res = await fetch(url);
         return await res.json();
